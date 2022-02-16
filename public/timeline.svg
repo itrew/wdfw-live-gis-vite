@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1440 400" style="enable-background:new 0 0 1440 400;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#000000;stroke-width:2;stroke-miterlimit:10;}
+	.st1{font-family:'MyriadPro-Regular';}
+	.st2{font-size:16px;}
+	.st3{font-family:'Calibri-Bold';}
+	.st4{font-size:18px;}
+	.st5{font-family:'Calibri';}
+	.st6{font-family:'Calibri-Light';}
+	.st7{fill:none;stroke:#44B649;stroke-width:3;stroke-miterlimit:10;}
+</style>
+<g id="timeline">
+	<g id="lines">
+		<g id="hashes">
+			<line class="st0" x1="5" y1="187.5" x2="5" y2="212.5"/>
+			<line class="st0" x1="94.38" y1="187.5" x2="94.38" y2="212.5"/>
+			<line class="st0" x1="183.75" y1="187.5" x2="183.75" y2="212.5"/>
+			<line class="st0" x1="273.12" y1="187.5" x2="273.12" y2="212.5"/>
+			<line class="st0" x1="362.5" y1="187.5" x2="362.5" y2="212.5"/>
+			<line class="st0" x1="451.88" y1="187.5" x2="451.88" y2="212.5"/>
+			<line class="st0" x1="541.25" y1="187.5" x2="541.25" y2="212.5"/>
+			<line class="st0" x1="630.62" y1="187.5" x2="630.62" y2="212.5"/>
+			<line class="st0" x1="720" y1="187.5" x2="720" y2="212.5"/>
+			<line class="st0" x1="809.38" y1="187.5" x2="809.38" y2="212.5"/>
+			<line class="st0" x1="898.75" y1="187.5" x2="898.75" y2="212.5"/>
+			<line class="st0" x1="988.12" y1="187.5" x2="988.12" y2="212.5"/>
+			<line class="st0" x1="1077.5" y1="187.5" x2="1077.5" y2="212.5"/>
+			<line class="st0" x1="1166.88" y1="187.5" x2="1166.88" y2="212.5"/>
+			<line class="st0" x1="1256.25" y1="187.5" x2="1256.25" y2="212.5"/>
+			<line class="st0" x1="1345.62" y1="187.5" x2="1345.62" y2="212.5"/>
+			<line class="st0" x1="1435" y1="187.5" x2="1435" y2="212.5"/>
+		</g>
+		<line id="base" class="st0" x1="5" y1="200" x2="1435" y2="200"/>
+	</g>
+	<g id="annotation">
+		<text transform="matrix(1 0 0 1 11.0002 215.5008)" class="st1 st2">2006</text>
+		<text transform="matrix(1 0 0 1 1351.6255 215.5006)" class="st1 st2">2021</text>
+		<text transform="matrix(1 0 0 1 100.3752 215.5007)" class="st1 st2">2007</text>
+		<text transform="matrix(1 0 0 1 189.75 215.5005)" class="st1 st2">2008</text>
+		<text transform="matrix(1 0 0 1 279.125 215.5005)" class="st1 st2">2009</text>
+		<text transform="matrix(1 0 0 1 368.5 215.5005)" class="st1 st2">2010</text>
+		<text transform="matrix(1 0 0 1 457.875 215.5004)" class="st1 st2">2011</text>
+		<text transform="matrix(1 0 0 1 547.25 215.5003)" class="st1 st2">2012</text>
+		<text transform="matrix(1 0 0 1 636.625 215.5003)" class="st1 st2">2013</text>
+		<text transform="matrix(1 0 0 1 726 215.5002)" class="st1 st2">2014</text>
+		<text transform="matrix(1 0 0 1 815.375 215.5002)" class="st1 st2">2015</text>
+		<text transform="matrix(1 0 0 1 904.7499 215.5001)" class="st1 st2">2016</text>
+		<text transform="matrix(1 0 0 1 994.125 215.5001)" class="st1 st2">2017</text>
+		<text transform="matrix(1 0 0 1 1083.5 215.5)" class="st1 st2">2018</text>
+		<text transform="matrix(1 0 0 1 1172.875 215.5)" class="st1 st2">2019</text>
+		<text transform="matrix(1 0 0 1 1262.25 215.4999)" class="st1 st2">2020</text>
+	</g>
+</g>
+<g id="events">
+	<g id="start_x5F_undergraduate">
+		<circle cx="73.17" cy="200" r="5"/>
+		<line class="st0" x1="73.17" y1="200" x2="105.85" y2="161.85"/>
+		<text transform="matrix(1 0 0 1 73.1703 60.7448)"><tspan x="0" y="0" class="st3 st4" style="text-decoration: underline;">Started Undergraduate</tspan><tspan x="0" y="21.6" class="st5 st4">Wildlife Science Major</tspan><tspan x="0" y="43.2" class="st6 st4">State University of New York:</tspan><tspan x="0" y="64.8" class="st6 st4">College of Environmental Science</tspan><tspan x="0" y="86.4" class="st6 st4">and Forestry</tspan></text>
+		<line class="st7" x1="239.89" y1="195" x2="362.5" y2="195"/>
+	</g>
+	<g id="graduate_x5F_undergraduate">
+		<circle cx="392.88" cy="200" r="5"/>
+		<line class="st0" x1="392.88" y1="200" x2="425.56" y2="161.85"/>
+		<text transform="matrix(1 0 0 1 392.8763 60.7449)"><tspan x="0" y="0" class="st3 st4" style="text-decoration: underline;">Finished Undergraduate</tspan><tspan x="0" y="21.6" class="st6 st4">- Intro to GIS</tspan><tspan x="0" y="43.2" class="st6 st4">- Wildlife Practicum</tspan><tspan x="0" y="64.8" class="st6 st4">- Wildlife Management</tspan></text>
+	</g>
+	<g id="start_x5F_grad_x5F_school">
+		<circle cx="426.69" cy="200" r="5"/>
+		<line class="st0" x1="426.69" y1="200" x2="459.37" y2="238.15"/>
+		<text transform="matrix(1 0 0 1 426.6939 261.9364)"><tspan x="0" y="0" class="st3 st4" style="text-decoration: underline;">Started Graduate School</tspan><tspan x="0" y="21.6" class="st5 st4">Range &amp; Wildlife Management</tspan><tspan x="0" y="43.2" class="st6 st4">Texas A&amp;M University: Kingsville</tspan></text>
+		<line class="st7" x1="526.36" y1="195" x2="555.47" y2="195"/>
+	</g>
+	<g id="graduate_x5F_grad_x5F_school">
+		<circle cx="658.65" cy="200" r="5"/>
+		<line class="st0" x1="658.65" y1="200" x2="691.33" y2="161.85"/>

@@ -1,0 +1,19 @@
+<svg
+  version="1.1"
+  id="split-background"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  x="0px"
+  y="0px"
+  viewBox="0 0 1920 1080"
+  xml:space="preserve"
+>
+  <style type="text/css">
+    .st0{ fill:#FFFFFF; }
+    .st1{ fill:#007A53; }
+    .st2{ fill:#92D4DA; }
+  </style>
+  <rect x="0" y="0" class="st0" width="1920" height="1080"/>
+  <rect x="0" y="0" class="st1" width="1920" height="540"/>
+  <rect x="0" y="532.5" class="st2" width="1920" height="15"/>
+</svg>

@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wild WA Career Connections: GIS</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.js"></script>
+    <div class="reveal">
+      <div class="slides">
+        <section
+          data-background-image="./split-background.svg"
+          data-background-size="1920px"
+        >
+          <div style="padding-top: 75px; padding-bottom: 50px;">
+            <h2>Washington Career Connections</h2>
+            <h4 style="text-transform: none;">Where the Wild (and Not So Wild) Things Are</h4>
+          </div>
+          <h5 style="color: black; text-transform: none;">
+             Geographic Information Systems (GIS) careers in the natural resource field
+          </h5>
+          <img src="./logo.png" height="150px">
+        </section>
+        <section>So who is this guy? 🤷‍♂️</section>
+        <section>
+          <div style="display: flex; align-content: center;">
+            <div class="r-stack" style="flex-shrink: 0">
+              <img src="./IanTrewella.jpg" height="400px">
+              <img src="./beckham.jpg" height="400px" class="fragment" data-fragment-index="6">
+            </div>
+            <div>
+              <ul>
+                <li data-fragment-index="1">Ian Trewella</li>
+                <li class="fragment" data-fragment-index="2">Senior GIS Specialist</li>
+                <li class="fragment" data-fragment-index="3">Work within the Wildlife Program at WDFW</li>
+                <li class="fragment" data-fragment-index="4">Joined WDFW in 2017</li>
+                <li class="fragment" data-fragment-index="5">Professional timeline later</li>
+                <li class="fragment" data-fragment-index="6">Proud father of a corgi pup</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <section data-auto-animate>
+          <p style="font-size: 60px;">What is GIS?</p>
+          <div>
+            <p class="fragment" data-id="g">Geographic</p>
+            <p class="fragment">Information System</p>
+          </div>
+        </section>
+        <section data-auto-animate>
+          <p data-id="g">Geographic</p>
+          <p class="fragment" style="font-size: 30px;">
+            <span style="font-style: italic; font-weight: bold;">
+              geography
+            </span>
+            : study of the location and description of diverse
+            <span class="fragment highlight-current-green">physical</span>,
+            <span class="fragment highlight-current-green">biological</span>, and
+            <span class="fragment highlight-current-green">cultural</span> features on earth's surface.
+          </p>
+        </section>
+        <section data-auto-animate>
+          <p style="font-size: 60px;">What is GIS?</p>
+          <div>
+            <p data-id="g">Geographic</p>
+            <p data-id="is">Information System</p>
+          </div>
+        </section>
+        <section data-auto-animate>
+          <p data-id="is">Information System</p>
+          <p class="fragment" style="font-size: 30px;">
+            <span style="font-style: italic; font-weight: bold;">
+              information system
+            </span>
+            : integrated set of components to
+            <span class="fragment highlight-current-green">collect</span>,
+            <span class="fragment highlight-current-green">process</span>,
+            <span class="fragment highlight-current-green">store</span>, and
+            <span class="fragment highlight-current-green">distribute information</span>.
+          </p>
+        </section>
+        <section>
+          <p style="font-size: 60px;">Quick Poll 📊</p>
+          <p style="font-size: 48px;">What are some examples of GIS that we use every day?</p>
+        </section>
+        <section>
+          <p style="font-size: 60px;">Let's take a look at some well-known GIS examples</p>
+        </section>
+        <section data-background-image="./google-maps.png">
+          <h2 class="overlay">Google Maps</h2>
+        </section>
+        <section data-preload data-background-iframe="https://seattlecitygis.maps.arcgis.com/apps/MapSeries/index.html?appid=94c31b66facc438b95d95a6cb6a0ff2e">
+          <h2 class="overlay">911 &amp; Police Services</h2>
+        </section>
+        <section data-preload data-background-iframe="https://embed.windy.com/embed2.html?lat=47.011&lon=-122.875&detailLat=47.011&detailLon=-122.875&width=650&height=450&zoom=5&level=surface&overlay=wind&product=ecmwf&menu=&message=&marker=&calendar=now&pressure=&type=map&location=coordinates&detail=&metricWind=default&metricTemp=default&radarRange=-1">
+          <h2 class="overlay">Weather Modeling &amp; Maps</h2>
+        </section>
+        <section data-preload data-background-iframe="https://geodataservices.wdfw.wa.gov/hunt-planner/">
+          <h2 class="overlay">Hunt Planning</h2>
+        </section>
+        <section data-auto-animate>
+          <p>How do we use GIS here at WDFW?</p>
+        </section>
+        <section data-auto-animate>
+          <p>How do we use GIS here at WDFW?</p>
+          <div style="display: flex; align-content: center;">
+            <div class="r-stack" style="flex-shrink: 0">
+              <img src="./sign.jpg" height="350px">
+            </div>
+            <div>
+              <ul>
+                <li>Mapping all of WDFW lands</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <section data-background-video="./DigitizingParcels.mp4" data-background-video-loop data-background-video-muted>
+          <h3 class="overlay" style="text-transform: none;">Mapping DFW Lands</h3>
+        </section>
+        <section data-auto-animate>
+          <p>How do we use GIS here at WDFW?</p>
+          <div style="display: flex; align-content: center;">
+            <div class="r-stack" style="flex-shrink: 0">
+              <img src="./bridge.jpg" height="350px">
+            </div>
+            <div>
+              <ul>
+                <li>Mapping all of WDFW lands</li>
+                <li>Keeping track of facilities</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <section data-background-video="./DigitizingRoadsClip.mp4" data-background-video-loop data-background-video-muted>
+          <h3 class="overlay" style="text-transform: none;">Keeping track of facilities</h3>
+        </section>
+        <section data-auto-animate>
+          <p>How do we use GIS here at WDFW?</p>
+          <div style="display: flex; align-content: center;">
+            <div class="r-stack" style="flex-shrink: 0">
+              <img src="./collar.jpg" height="350px">
+            </div>
+            <div>
+              <ul>
+                <li>Mapping all of WDFW lands</li>
+                <li>Keeping track of facilities</li>
+                <li>Wildlife telemetry</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <section data-background-image="./telem-dashboard.png" data-background-size="1040px 674px">
+          <h3 class="overlay" style="text-transform: none;">Wildlife telemetry</h3>
+        </section>
+        <section data-auto-animate>
+          <p>How do we use GIS here at WDFW?</p>
+          <div style="display: flex; align-content: center;">
+            <div class="r-stack" style="flex-shrink: 0">
+              <img src="./landslide.jpg" height="350px">
+            </div>
+            <div>
+              <ul>
+                <li>Mapping all of WDFW lands</li>
+                <li>Keeping track of facilities</li>
+                <li>Wildlife telemetry</li>
+                <li>Habitat analysis</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <section data-preload data-background-iframe="https://www.arcgis.com/apps/Embed/index.html?webmap=89754378deeb4500b4ab6081eb37ee63&level=17">
+          <h3 class="overlay" style="text-transform: none;">Habitat Analysis</h3>
+        </section>
+        <section data-auto-animate>
+          <p>How do we use GIS here at WDFW?</p>
+          <div style="display: flex; align-content: center;">
+            <div class="r-stack" style="flex-shrink: 0">
+              <img src="./drone.jpg" height="350px">
+            </div>
+            <div>
+              <ul>
+                <li>Mapping all of WDFW lands</li>
+                <li>Keeping track of facilities</li>
+                <li>Wildlife telemetry</li>
+                <li>Habitat analysis</li>
+                <li>Drone surveys</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <section data-background-video="./IMG_0653.mov" data-background-video-loop data-background-video-muted>
+          <h3 class="overlay" style="text-transform: none;">Drone Surveys</h3>
+        </section>
+        <section data-auto-animate>
+          <p>How do we use GIS here at WDFW?</p>
+          <div style="display: flex; align-content: center;">
+            <div class="r-stack" style="flex-shrink: 0">
+              <img src="./landslide.jpg" height="350px">
+            </div>
+            <div>
+              <ul>
+                <li>Mapping all of WDFW lands</li>
+                <li>Keeping track of facilities</li>
+                <li>Wildlife telemetry</li>
+                <li>Habitat analysis</li>
+                <li>Drone surveys</li>
+                <li>And much more!</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <section data-preload data-background-iframe="https://www.arcgis.com/apps/Embed/index.html?webmap=f415cd6cb2f14a8ab14d9c0bcd2cb429&level=10">
+          <h3 class="overlay" style="text-transform: none;">And much more!</h3>
+        </section>
+        <section>
+          So what does an average day of a GIS worker look like?
+        </section>
+        <section>
+          Well, it depends on what your interest is...
+        </section>
+        <section>
+          <p>You can focus on <span class="highlight">cartography</span> (map making) if you enjoy <span class="highlight">design</span></p>
+          <div>
+            <iframe src="https://www.arcgis.com/apps/Embed/index.html?webmap=013485e317d84af7a0a0ac8466159933&level=13&center=-122.900063,47.0343026&scale=false&disable_scroll=false" style="height: 300px; width: 300px; padding: 15px" frameBorder="0"></iframe>
+            <iframe src="https://www.arcgis.com/apps/Embed/index.html?webmap=69ec09e6190841748d841f8437934d92&level=13&center=-122.900063,47.0343026&scale=false&disable_scroll=false" style="height: 300px; width: 300px; padding: 15px" frameBorder="0"></iframe>
+          </div>
+        </section>
+        <section>
+          <p>You can focus on <span class="highlight">data stewardship and editing</span> if you enjoy <span class="highlight">raw data</span></p>
+          <img src="./pro_editing.png">
+        </section>
+        <section>
+          <p>You can focus on <span class="highlight">software and data development</span> if you enjoy <span class="highlight">engineering</span></p>
+          <img src="./coding.png" height="500px">
+        </section>
+        <section>
+          <p>Or you can focus on <span class="highlight">spatial analysis</span> if you enjoy <span class="highlight">science</span></p>
+          <img src="./analysis.png" height="500px">
+        </section>
+        <section>
+          <p>But the cool thing is that you can mix any of these together!</p>
+          <img src="./cool-computer.gif">
+        </section>
+        <section>
+          <p>What do I like? What don't I like?</p>
+        </section>
+        <section data-auto-animate>
+          <p style="font-size: 52px;">Let's start with the good things</p>
+        </section>
+        <section data-auto-animate>
+          <p style="font-size: 52px;">Let's start with the good things</p>
+          <ul>
+            <li class="fragment">Geeky side loves the technology</li>
+            <li class="fragment">Organized side loves the data</li>
+            <li class="fragment">Creative side gets some use</li>
+            <li class="fragment">
+              But I just 💙 maps!
+              <img src="./goonies.gif" style="display: block">
+            </li>
+          </ul>
+        </section>
+        <section data-auto-animate>
+          <p style="font-size: 52px;">And now for the not so good things</p>
+        </section>
+        <section data-auto-animate>
+          <p style="font-size: 52px;">And now for the not so good things</p>
+          <ul>
+            <li class="fragment">Unless you go into development or management, not much vertical room</li>
+            <li class="fragment">A lot to keep up on with new technologies</li>
+            <li class="fragment">Movement away from a profession to a skill</li>
+            <li class="fragment">
+              Software bugs can drive you mad
+              <img src="./moss.gif" height="200px" style="display: block; margin: auto;">
+            </li>
+          </ul>
+        </section>
+        <section data-auto-animate>
+          <p>How did I get here?</p>
+        </section>
+        <section data-auto-animate style="margin: -50 0 -50 0">
+          <p>How did I get here?</p>
+          <svg
+            version="1.1"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            x="0px"
+            y="0px"
+            viewBox="0 0 1440 400"
+            style="enable-background:new 0 0 1440 400;"
+            xml:space="preserve"
+          >
+            <style type="text/css">
+              .st0 {
+                fill: none;
+                stroke: #FFFFFF;
+                stroke-width: 3;
+                stroke-miterlimit: 10;
+              }
+              .st1 {
+                font-family: Calibri;
+                fill: #FFFFFF;
+              }
+              .st2 {
+                font-size: 16px;
+              }
+              .st3 {
+                font-size: 18px;
+              }
+              .st4 {
+                font-weight: bold;
+              }
+              .st5 {
+                font-weight: light;
+              }
+              .st6 {
+                fill: none;
+                stroke: #10e51a;
+                stroke-width: 4;
+                stroke-miterlimit: 10;
+              }
+              .st7 {
+                fill: #FFFFFF;
+              }
+            </style>
+            <g id="timeline">
+              <g id="lines">
+                <g id="hashes">
+                  <line class="st0" x1="5" y1="187.5" x2="5" y2="212.5"/>
+                  <line class="st0" x1="94.38" y1="187.5" x2="94.38" y2="212.5"/>
+                  <line class="st0" x1="183.75" y1="187.5" x2="183.75" y2="212.5"/>
+                  <line class="st0" x1="273.12" y1="187.5" x2="273.12" y2="212.5"/>
+                  <line class="st0" x1="362.5" y1="187.5" x2="362.5" y2="212.5"/>
+                  <line class="st0" x1="451.88" y1="187.5" x2="451.88" y2="212.5"/>
+                  <line class="st0" x1="541.25" y1="187.5" x2="541.25" y2="212.5"/>
+                  <line class="st0" x1="630.62" y1="187.5" x2="630.62" y2="212.5"/>
+                  <line class="st0" x1="720" y1="187.5" x2="720" y2="212.5"/>
+                  <line class="st0" x1="809.38" y1="187.5" x2="809.38" y2="212.5"/>
+                  <line class="st0" x1="898.75" y1="187.5" x2="898.75" y2="212.5"/>
+                  <line class="st0" x1="988.12" y1="187.5" x2="988.12" y2="212.5"/>
+                  <line class="st0" x1="1077.5" y1="187.5" x2="1077.5" y2="212.5"/>
+                  <line class="st0" x1="1166.88" y1="187.5" x2="1166.88" y2="212.5"/>
+                  <line class="st0" x1="1256.25" y1="187.5" x2="1256.25" y2="212.5"/>
+                  <line class="st0" x1="1345.62" y1="187.5" x2="1345.62" y2="212.5"/>
+                  <line class="st0" x1="1435" y1="187.5" x2="1435" y2="212.5"/>
+                </g>
+              <line id="base" class="st0" x1="5" y1="200" x2="1435" y2="200"/>
+              </g>
+              <g id="annotation">
+                <text transform="matrix(1 0 0 1 11.0002 215.5008)" class="st1 st2">2006</text>
+                <text transform="matrix(1 0 0 1 1351.6255 215.5006)" class="st1 st2">2021</text>
+                <text transform="matrix(1 0 0 1 100.3752 215.5007)" class="st1 st2">2007</text>
+                <text transform="matrix(1 0 0 1 189.75 215.5005)" class="st1 st2">2008</text>
+                <text transform="matrix(1 0 0 1 279.125 215.5005)" class="st1 st2">2009</text>
+                <text transform="matrix(1 0 0 1 368.5 215.5005)" class="st1 st2">2010</text>
+                <text transform="matrix(1 0 0 1 457.875 215.5004)" class="st1 st2">2011</text>
+                <text transform="matrix(1 0 0 1 547.25 215.5003)" class="st1 st2">2012</text>
+                <text transform="matrix(1 0 0 1 636.625 215.5003)" class="st1 st2">2013</text>
+                <text transform="matrix(1 0 0 1 726 215.5002)" class="st1 st2">2014</text>
+                <text transform="matrix(1 0 0 1 815.375 215.5002)" class="st1 st2">2015</text>
+                <text transform="matrix(1 0 0 1 904.7499 215.5001)" class="st1 st2">2016</text>
+                <text transform="matrix(1 0 0 1 994.125 215.5001)" class="st1 st2">2017</text>
+                <text transform="matrix(1 0 0 1 1083.5 215.5)" class="st1 st2">2018</text>
+                <text transform="matrix(1 0 0 1 1172.875 215.5)" class="st1 st2">2019</text>
+                <text transform="matrix(1 0 0 1 1262.25 215.4999)" class="st1 st2">2020</text>
+              </g>
+            </g>
+            <g id="events">
+              <g id="start_x5F_undergraduate" class="fragment">
+                <circle cx="73.17" cy="200" r="5" class="st7"/>
+                <line class="st0" x1="73.17" y1="200" x2="105.85" y2="161.85"/>
+                <text transform="matrix(1 0 0 1 73.1703 60.7448)"><tspan x="0" y="0" class="st1 st3 st4" style="text-decoration: underline;">Started Undergraduate</tspan><tspan x="0" y="21.6" class="st1 st3 st5">Wildlife Science Major</tspan><tspan x="0" y="43.2" class="st1 st3 st5">State University of New York:</tspan><tspan x="0" y="64.8" class="st1 st3 st5">College of Environmental Science</tspan><tspan x="0" y="86.4" class="st1 st3 st5">and Forestry</tspan></text>
+                <line class="st6" x1="239.89" y1="195" x2="362.5" y2="195"/>
+              </g>
+              <g id="graduate_x5F_undergraduate" class="fragment">
+                <circle cx="392.88" cy="200" r="5" class="st7"/>
+                <line class="st0" x1="392.88" y1="200" x2="425.56" y2="161.85"/>
+                <text transform="matrix(1 0 0 1 392.8763 60.7449)"><tspan x="0" y="0" class="st1 st3 st4" style="text-decoration: underline;">Finished Undergraduate</tspan><tspan x="0" y="21.6" class="st1 st3 st5">- Intro to GIS</tspan><tspan x="0" y="43.2" class="st1 st3 st5">- Wildlife Practicum</tspan><tspan x="0" y="64.8" class="st1 st3 st5">- Wildlife Management</tspan></text>
+              </g>
+              <g id="start_x5F_grad_x5F_school" class="fragment">
+                <circle cx="426.69" cy="200" r="5" class="st7"/>
+                <line class="st0" x1="426.69" y1="200" x2="459.37" y2="238.15"/>
+                <text transform="matrix(1 0 0 1 426.6939 261.9364)"><tspan x="0" y="0" class="st1 st3 st4" style="text-decoration: underline;">Started Graduate School</tspan><tspan x="0" y="21.6" class="st1 st3 st5">Range &amp; Wildlife Management</tspan><tspan x="0" y="43.2" class="st1 st3 st5">Texas A&amp;M University: Kingsville</tspan></text>
+                <line class="st6" x1="526.36" y1="195" x2="555.47" y2="195"/>
+              </g>
+              <g id="graduate_x5F_grad_x5F_school" class="fragment">
+                <circle cx="658.65" cy="200" r="5" class="st7"/>
+                <line class="st0" x1="658.65" y1="200" x2="691.33" y2="161.85"/>
+                <text transform="matrix(1 0 0 1 658.653 60.7449)"><tspan x="0" y="0" class="st1 st3 st4" style="text-decoration: underline;">Finished Graduate School</tspan><tspan x="0" y="21.6" class="st1 st3 st5">- Thesis on timing of quail breeding</tspan><tspan x="0" y="43.2" class="st1 st3 st5">- Side project on spatial analysis of</tspan><tspan x="0" y="64.8" class="st1 st3 st5">  predator data</tspan></text>
+              </g>
+              <g id="start_x5F_pgc" class="fragment">
+                <line class="st6" x1="737.77" y1="195" x2="1012.79" y2="195"/>
+                <circle cx="737.77" cy="200" r="5" class="st7"/>
+                <line class="st0" x1="737.77" y1="200" x2="770.45" y2="238.15"/>
+                <text transform="matrix(1 0 0 1 737.77 261.9368)"><tspan x="0" y="0" class="st1 st3 st4" style="text-decoration: underline;">Started at Pennsylvania Game Commission</tspan><tspan x="0" y="21.6" class="st1 st3 st5">NW Region GIS Specialist</tspan><tspan x="0" y="43.2" class="st1 st3 st5">- Data management</tspan><tspan x="0" y="64.8" class="st1 st3 st5">- Cartography</tspan><tspan x="0" y="86.4" class="st1 st3 st5">- Development</tspan></text>
+              </g>
+              <g id="start_x5F_wdfw" class="fragment">
+                <line class="st6" x1="1017.79" y1="195" x2="1435" y2="195"/>
+                <circle cx="1017.79" cy="200" r="5" class="st7"/>
+                <line class="st0" x1="1017.79" y1="200" x2="1050.47" y2="161.85"/>
+                <text transform="matrix(1 0 0 1 1017.7896 60.7449)"><tspan x="0" y="0" class="st1 st3 st4" style="text-decoration: underline;">Started at WA Dept of Fish and Wildlife</tspan><tspan x="0" y="21.6" class="st1 st3 st5">Senior GIS Specialist</tspan><tspan x="0" y="43.2" class="st1 st3 st5">- Data and application development</tspan><tspan x="0" y="64.8" class="st1 st3 st5">- Project management</tspan><tspan x="0" y="86.4" class="st1 st3 st5">- System architecture</tspan></text>
+              </g>
+            </g>
+          </svg>
+        </section>
+        <section>
+          That was just one path. There are MANY others.
+        </section>
+        <section>
+          Questions 🙋‍♂️
+        </section>
+      </div>
+    </div>
+  </body>
+</html>
